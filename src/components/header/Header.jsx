@@ -1,30 +1,22 @@
 import React, {useEffect, useState} from 'react';
-import {IoMenu, IoClose} from "react-icons/io5";
+import {IoMenu, IoClose} from 'react-icons/io5';
 import './Nav.scss';
-import menu from "./../../menu.json";
-import Dropdown from "./Dropdown";
+import Navbar from './Navbar';
 
-const NavDropdown = () => {
-    const [menuData, setMenuData] = useState([]);
-
-    useEffect(() => {
-        // Зареждаме данни от JSON файла
-        fetch('/data.json')
-            .then(response => response.json())
-            .then(data => setMenuData(data))
-            .catch(error => console.error('Error loading menu data:', error));
-    }, []);
-
+const Header = () => {
     return (
-        <nav>
-            {menuData.map((menu, index) => (
-                <Dropdown key={index} text={menu.text} href={menu.href} content={menu.content} />
-            ))}
-        </nav>
+        <header>
+            <div className="nav-area">
+                <a href="/" className="logo">
+                    Logo
+                </a>
+                <Navbar />
+            </div>
+        </header>
     );
 };
 
-export default NavDropdown;
+export default Header;
 // const Menu = () => {
 //     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 //

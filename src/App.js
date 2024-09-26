@@ -1,5 +1,5 @@
 import './App.scss';
-import Nav from './components/header/Nav';
+import Nav from './components/header/Header';
 import Hero from './components/hero/Hero';
 import Products from './components/products/Products';
 

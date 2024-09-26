@@ -1,46 +1,38 @@
 [
   {
-    "href": "#r-line",
-    "text": "R-Line",
-    "content": [
+    "title": "R-Line",
+    "url": "/r-line",
+    "submenu": [
       {
-        "first-path": "first href",
-        "second-path": "second href",
-        "third-path": "third href"
+        "title": "Premier R4",
+        "url": "premier-r4"
+      },
+      {
+        "title": "Premier R6",
+        "url": "premier-r6"
+      },
+      {
+        "title": "Premier R8",
+        "url": "premier-r8"
       }
     ]
   },
   {
-  "href": "#s-line",
-  "text": "S-Line",
-    "content": [
+    "title": "S-Line",
+    "url": "/s-line",
+    "submenu": [
       {
-      "first-path" : "first href",
-      "second-path" : "second href",
-      "third-path" : "third href"
-    }
-    ]
-  },
-  {
-  "href": "#t-line",
-  "text": "T-Line",
-    "content": [
+        "title": "Premier S4",
+        "url": "/premier-S4"
+      },
       {
-      "first-path" : "first href",
-      "second-path" : "second href",
-      "third-path" : "third href"
-    }
-    ]
-  },
-  {
-    "href": "#sbg",
-    "text": "SBG",
-    "content": [
+        "title": "Premier S6",
+        "url": "/premier-s6"
+      },
       {
-      "first-path" : "first href",
-      "second-path" : "second href",
-      "third-path" : "third href"
-    }
+        "title": "Premier S8",
+        "url": "/premier-s8"
+      }
     ]
   }
 ]

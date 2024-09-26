@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4b3b7fe-b8d9-48dc-971d-656838f53dd0" name="Changes" comment="Add project" />
+    <list default="true" id="c4b3b7fe-b8d9-48dc-971d-656838f53dd0" name="Changes" comment="Add project">
+      <change afterPath="$PROJECT_DIR$/src/components/header/MenuItems.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Dropdown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Dropdown.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727341300971</updated>
       <workItem from="1727341302328" duration="25752000" />
-      <workItem from="1727370813448" duration="1102000" />
+      <workItem from="1727370813448" duration="9127000" />
     </task>
     <task id="LOCAL-00001" summary="Add project">
       <option name="closed" value="true" />
