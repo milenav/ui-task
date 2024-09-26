@@ -23,7 +23,7 @@
     "submenu": [
       {
         "title": "Premier S4",
-        "url": "/premier-S4"
+        "url": "/premier-s4"
       },
       {
         "title": "Premier S6",
@@ -34,5 +34,53 @@
         "url": "/premier-s8"
       }
     ]
+  },
+  {
+    "title": "T-Line",
+    "url": "/t-line",
+    "submenu": [
+      {
+        "title": "Premier T4",
+        "url": "/premier-t4"
+      },
+      {
+        "title": "Premier T6",
+        "url": "/premier-t6"
+      },
+      {
+        "title": "Premier T8",
+        "url": "/premier-t8"
+      }
+    ]
+  },
+  {
+    "title": "SBG",
+    "url": "/sbg-line",
+    "submenu": [
+      {
+        "title": "Premier SBG4",
+        "url": "/premier-sbg4"
+      },
+      {
+        "title": "Premier SBG6",
+        "url": "/premier-sbg6"
+      },
+      {
+        "title": "Premier SBG8",
+        "url": "/premier-sbg8"
+      }
+    ]
+  },
+  {
+    "title": "News & Events",
+    "url": "/news-events"
+  },
+  {
+    "title": "About Us",
+    "url": "/about"
+  },
+  {
+    "title": "Contact Us",
+    "url": "/contact"
   }
 ]
