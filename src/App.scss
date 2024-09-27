@@ -1,13 +1,42 @@
-// Small tablets and large smartphones (landscape view)
+@font-face {
+  src: url("assets/fonts/Roboto-Thin.ttf") format("opentype");
+  font-family: "Roboto Thin";
+  font-weight: 100;
+}
+
+@font-face {
+  src: url("assets/fonts/Roboto-Light.ttf") format("opentype");
+  font-family: "Roboto Light";
+  font-weight: 300;
+}
+
+@font-face {
+  src: url("assets/fonts/Roboto-Regular.ttf") format("opentype");
+  font-family: "Roboto Regular";
+  font-weight: 400;
+}
+
+@font-face {
+  src: url("assets/fonts/Roboto-Medium.ttf") format("opentype");
+  font-family: "Roboto Medium";
+  font-weight: 500;
+}
+
+@font-face {
+  src: url("assets/fonts/Roboto-Thin.ttf") format("opentype");
+  font-family: "Roboto-thin";
+  font-weight: 100;
+}
+
+@font-face {
+  src: url("assets/fonts/Roboto-Thin.ttf") format("opentype");
+  font-family: "Roboto-thin";
+  font-weight: 100;
+}
+
 $screen-sm: 576px;
-
-// Small tablets (portrait view)
 $screen-md: 768px;
-
-// Tablets and small desktops
 $screen-lg: 992px;
-
-// Large tablets and desktops
 $screen-xl: 1200px;
 
 $dark-text: #0e121a;
@@ -17,6 +46,8 @@ $red-text: #c2212e;
 $light-grey-bg: #f7f7f7;
 $grey-bg: #e0e0e0;
 $red-bg: #da2228;
+
+$title-size: 45px;
 
 .row {
   display: flex;
@@ -30,13 +61,7 @@ $red-bg: #da2228;
   }
 }
 
-@media (min-width: $screen-xl) {
-  .container {
-    max-width: 1140px;
-  }
-}
-
-@media (min-width: $screen-lg) {
+@media screen and (min-width: $screen-lg) {
   .container {
     max-width: 960px;
   }
@@ -45,17 +70,21 @@ $red-bg: #da2228;
 @media screen and (min-width: $screen-md) {
   .container {
     max-width: 720px;
-    background: $light-grey-bg;
   }
 }
 
 @media screen and (min-width: $screen-sm) {
   .container {
     max-width: 540px;
-    background: $red-bg
-  ;
   }
 }
+
+@media screen and (min-width: $screen-xl) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
 
 .col {
   flex-basis: 0;
