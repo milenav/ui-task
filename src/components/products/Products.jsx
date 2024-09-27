@@ -1,20 +1,14 @@
-import './Products.scss';
+import './../../App.scss';
 import ProductCard from "./ProductCard";
 
 const Products = () => {
     return (
-        <section className="container">
-            <div className="row">
-                <div className="col col-sm">
-                    <ProductCard/>
+        <section className="product-section container-fluid">
+            <h2 className="section-title">Our Products</h2>
+            <div className="container">
+                <div className="row product-card-wrapper">
+                    <ProductCard />
                 </div>
-                <div className="col col-sm">
-                    <ProductCard/>
-                </div>
-                <div className="col col-sm">
-                    <ProductCard/>
-                </div>
-
             </div>
         </section>
     )

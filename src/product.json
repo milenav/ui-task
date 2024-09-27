@@ -1,0 +1,17 @@
+[
+  {
+    "title": "R-Liine",
+    "image": "https://picsum.photos/400/600?random=1",
+    "alt": "R-Line"
+  },
+  {
+    "title": "S-Line",
+    "image": "https://picsum.photos/400/600?random=2",
+    "alt": "S-Line"
+  },
+  {
+    "title": "T-Line",
+    "image": "https://picsum.photos/400/600?random=3",
+    "alt": "T-Line"
+  }
+]

@@ -1,0 +1,54 @@
+@import "./../../App.scss";
+
+.product-section {
+  background-color: $light-grey-bg;
+  padding: 48px 0 80px;
+
+  .section-title {
+    font-size: $title-size;
+    font-family: 'Roboto Regular';
+    font-weight: 400;
+    color: $dark;
+    text-align: center;
+    margin: 0 0 64px;
+  }
+  .product-card-wrapper {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .col-3 {
+      flex: 0 0 30%;
+      max-width: 30%;
+      width: 100%;
+    }
+    .product-card {
+      position: relative;
+
+      .product-title {
+        font-size: 30px;
+        font-weight: 500;
+        color: $light-text;
+        position: absolute;
+        bottom: 70px;
+        left: 30px;
+      }
+      .product-img {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+  @media (max-width: $screen-md) {
+    .section-title {
+      margin: 0 0 40px;
+    }
+    .product-card-wrapper {
+      row-gap: 40px;
+    }
+    .col-3 {
+      flex: 1 1 auto;;
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+}
