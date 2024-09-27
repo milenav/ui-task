@@ -1,0 +1,102 @@
+@import "./../../App.scss";
+
+.server-based-solution {
+  text-align: center;
+  padding: 50px 0 80px;
+
+  .section-title {
+    font-size: $title-size;
+    font-family: 'Roboto Regular';
+    font-weight: 400;
+    color: $dark;
+    text-align: center;
+    margin: 0 0 50px;
+  }
+
+  .image-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .hidden-md {
+      display: none;
+    }
+
+    .hidden-sm {
+      display: block;
+    }
+
+    .octopus-label {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 600px;
+      height: 600px;
+      background-color: rgba(19, 137, 201, 0.8);
+      -webkit-clip-path: circle(55% at 5% 100%);
+      clip-path: circle(55% at 5% 100%);
+
+
+      .octopus-text {
+        display: inline-block;
+        position: absolute;
+        left: 20px;
+        bottom: 70px;
+
+        h3 {
+          font-size: $title-size;
+          font-family: "Roboto Medium";
+          font-weight: 500;
+          color: #fefefe;
+          margin-bottom: 0;
+        }
+
+        p {
+          font-family: "Roboto Medium";
+          font-weight: 500;
+          font-size: 21px;
+          color: #fefefe;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  @media (max-width: $screen-md) {
+    .image-container {
+
+      img {
+        max-width: 100%;
+        min-height: 700px;
+        display: block;
+      }
+
+      .hidden-sm {
+        display: none;
+      }
+
+      .hidden-md {
+        display: block
+      }
+
+      .octopus-label {
+        -webkit-clip-path: circle(45% at 5% 100%);
+        clip-path: circle(45% at 5% 95%);
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
