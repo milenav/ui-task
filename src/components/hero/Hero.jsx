@@ -6,6 +6,8 @@ import 'swiper/css/navigation';
 
 import {Pagination, Navigation} from 'swiper/modules';
 import sliderData from "../../slider.json";
+import youTube from "../../assets/images/you-tube.png";
+import fb from "../../assets/images/fb.png";
 
 const Hero = () => {
     return (
@@ -24,6 +26,11 @@ const Hero = () => {
                     </SwiperSlide>
                 ))}
             </Swiper>
+            <div className="social">
+                <img src={youTube} alt="YouTube"/>
+                <span className="divider"></span>
+                <img src={fb} alt="Facebook"/>
+            </div>
         </div>
     );
 }
