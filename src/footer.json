@@ -1,0 +1,91 @@
+[
+  {
+    "title": "R-Line",
+    "submenu": [
+      {
+        "title": "Premier R4",
+        "url": "premier-r4"
+      },
+      {
+        "title": "Premier R6",
+        "url": "premier-r6"
+      },
+      {
+        "title": "Premier R8",
+        "url": "premier-r8"
+      }
+    ]
+  },
+  {
+    "title": "S-Line",
+    "submenu": [
+      {
+        "title": "S32",
+        "url": "/s32"
+      },
+      {
+        "title": "S32/32",
+        "url": "/s32-32"
+      },
+      {
+        "title": "S32/32/27",
+        "url": "/s32-32-27"
+      },
+      {
+        "title": "Stork",
+        "url": "/stork"
+      }
+    ]
+  },
+  {
+    "title": "T-Line",
+    "url": "/t-line",
+    "submenu": [
+      {
+        "title": "LTTR Live",
+        "url": "/LTTR-Live"
+      },
+      {
+        "title": "LTTR Auto",
+        "url": "/LTTR-Auto"
+      },
+      {
+        "title": "LTT LC",
+        "url": "/LTT-LC"
+      }
+    ]
+  },
+  {
+    "title": "OUR SOLUTION",
+    "submenu": [
+      {
+        "title": "SBG",
+        "url": "/sbg"
+      }
+    ]
+  },
+  {
+    "title": "COMPANY",
+    "submenu": [
+      {
+        "title": "News & Events",
+        "url": "/news-events"
+      },
+      {
+        "title": "About Us",
+        "url": "/about"
+      },
+      {
+        "title": "Contact Us",
+        "url": "/contact"
+      },
+      {
+        "title": "Careers",
+        "url": "/careers"
+      }
+    ]
+  },
+  {
+    "title": "Social Networks"
+  }
+]
