@@ -1,27 +1,28 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
+import styles from './Hero.scss';
 import 'swiper/css';
 import 'swiper/css/pagination';
-
-// import required modules
 import { Pagination } from 'swiper/modules';
 
 const Hero = () => {
     return (
-        <>
-            <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
-                <SwiperSlide>Slide 1</SwiperSlide>
-                <SwiperSlide>Slide 2</SwiperSlide>
-                <SwiperSlide>Slide 3</SwiperSlide>
-                <SwiperSlide>Slide 4</SwiperSlide>
-                <SwiperSlide>Slide 5</SwiperSlide>
-                <SwiperSlide>Slide 6</SwiperSlide>
-                <SwiperSlide>Slide 7</SwiperSlide>
-                <SwiperSlide>Slide 8</SwiperSlide>
-                <SwiperSlide>Slide 9</SwiperSlide>
+        <div className={styles.heroContainer}>
+            <Swiper
+                pagination={{ clickable: true }}
+                modules={[Pagination]}
+                className="mySwiper"
+            >
+                <SwiperSlide>
+                    <img src="https://picsum.photos/800/400?random=1" alt="Random 1" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src="https://picsum.photos/800/400?random=2" alt="Random 2" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src="https://picsum.photos/800/400?random=3" alt="Random 3" />
+                </SwiperSlide>
             </Swiper>
-        </>
+        </div>
     );
 }
 
