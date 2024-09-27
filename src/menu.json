@@ -22,16 +22,20 @@
     "url": "/s-line",
     "submenu": [
       {
-        "title": "Premier S4",
-        "url": "/premier-s4"
+        "title": "S32",
+        "url": "/s32"
       },
       {
-        "title": "Premier S6",
-        "url": "/premier-s6"
+        "title": "S32/32",
+        "url": "/s32-32"
       },
       {
-        "title": "Premier S8",
-        "url": "/premier-s8"
+        "title": "S32/32/27",
+        "url": "/s32-32-27"
+      },
+      {
+        "title": "Stork",
+        "url": "/stork"
       }
     ]
   },
@@ -40,16 +44,16 @@
     "url": "/t-line",
     "submenu": [
       {
-        "title": "Premier T4",
-        "url": "/premier-t4"
+        "title": "LTTR Live",
+        "url": "/LTTR-Live"
       },
       {
-        "title": "Premier T6",
-        "url": "/premier-t6"
+        "title": "LTTR Auto",
+        "url": "/LTTR-Auto"
       },
       {
-        "title": "Premier T8",
-        "url": "/premier-t8"
+        "title": "LTT LC",
+        "url": "/LTT-LC"
       }
     ]
   },
