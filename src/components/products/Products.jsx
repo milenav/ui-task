@@ -6,7 +6,7 @@ const Products = () => {
         <section className="product-section container-fluid">
             <h2 className="section-title">Our Products</h2>
             <div className="container">
-                <div className="row product-card-wrapper">
+                <div className="product-card-wrapper">
                     <ProductCard />
                 </div>
             </div>

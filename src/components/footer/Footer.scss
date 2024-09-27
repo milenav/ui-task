@@ -1,0 +1,74 @@
+@import "src/App.scss";
+
+.footer {
+  background: $grey-bg;
+  padding-top: 30px;
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .nav {
+    list-style: none;
+    padding: 0 0 30px;
+
+    .nav-item {
+      color: $dark-grey;
+      font-size: 12px;
+      font-weight: 700;
+      font-family: "Roboto Bold";
+      text-transform: uppercase;
+      line-height: 36px;
+
+      &:nth-child(5) {
+        padding-left: 30px;
+        border-left: 1px solid #192333;
+      }
+    }
+
+    .nav-link {
+      color: $dark-grey;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 36px;
+      text-decoration: none;
+      text-transform: capitalize;
+      font-family: "Roboto Regular";
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .copyright {
+    background: $red-bg;
+    color: $white;
+    font-family: "Roboto Light";
+    font-weight: 300;
+    text-align: center;
+    font-size: 13px;
+    padding: 18px 0;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  @media (max-width: $screen-md) {
+    .nav-item {
+      display: none;
+span {
+  display: none;
+}
+      &:nth-child(5) {
+        display: inline-block;
+        text-align: center;
+        padding-left: 0 !important;
+        width: 100%;
+      }
+    }
+  }
+}
