@@ -1,7 +1,7 @@
 [
   {
     "title": "News",
-    "src": "./assets/images/calendar.png",
+    "src": "/megaphone.png",
     "image": "https://picsum.photos/300/200?random=1",
     "alt": "News",
     "text": "EGT is expecting FADJA Colombia 2017",
@@ -10,7 +10,7 @@
   },
   {
     "title": "Events",
-    "src": "./assets/image/events.png",
+    "src": "/events.png",
     "image": "https://picsum.photos/300/200?random=2",
     "alt": "Events",
     "text": "Indian Gaming Show",
@@ -19,7 +19,7 @@
   },
   {
     "title": "Press Releases",
-    "src": "./assets/image/calendar.png",
+    "src": "/calendar.png",
     "image": "https://picsum.photos/300/200?random=3",
     "alt": "Press Releases",
     "text": "True Leader accolade for Bulgarian firm",
