@@ -10,7 +10,7 @@ const Footer = () => {
                 {footerData.map((item, index) => (
                     <li key={index} className="nav-item">
                         <span>{item.title}</span>
-                        {item.submenu && ( // Check if submenu exists
+                        {item.submenu && (
                             <ul className="nav">
                                 {item.submenu.map((submenu, subIndex) => (
                                     <li key={subIndex}>

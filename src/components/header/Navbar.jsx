@@ -1,6 +1,8 @@
 import {useState} from 'react';
 import menuItems from '../../menu.json';
-import {IoClose, IoMenu} from "react-icons/io5";
+import {IoClose, IoMenu, IoChevronDown} from "react-icons/io5";
+import flag from '../../assets/images/flag.svg';
+
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -46,7 +48,11 @@ const Navbar = () => {
                         )}
                     </li>
                 ))}
-                <li>EN</li>
+                <li className="language">
+                    <img src={flag} alt="flag"/>
+                    <span>EN</span>
+                    <IoChevronDown/>
+                </li>
             </ul>
         </nav>
     );

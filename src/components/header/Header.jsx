@@ -9,7 +9,7 @@ const Header = () => {
                 <a href="/">
                     <img className="logo" src={logo} alt="logo EGT DIGITAL"/>
                 </a>
-                <Navbar />
+                <Navbar/>
             </div>
         </header>
     );

@@ -7,7 +7,7 @@ const Products = () => {
             <h2 className="section-title">Our Products</h2>
             <div className="container">
                 <div className="product-card-wrapper">
-                    <ProductCard />
+                    <ProductCard/>
                 </div>
             </div>
         </section>

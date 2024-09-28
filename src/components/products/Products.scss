@@ -12,32 +12,37 @@
     text-align: center;
     margin: 0 0 64px;
   }
+
   .product-card-wrapper {
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    }
-    .col-3 {
-      flex: 0 0 30%;
-      max-width: 30%;
-      width: 100%;
-    }
-    .product-card {
-      position: relative;
+  }
 
-      .product-title {
-        font-size: 30px;
-        font-weight: 500;
-        color: $white;
-        position: absolute;
-        bottom: 70px;
-        left: 30px;
-      }
-      .product-img {
-        width: 100%;
-        max-width: 100%;
-      }
+  .col-3 {
+    flex: 0 0 30%;
+    max-width: 30%;
+    width: 100%;
+  }
+
+  .product-card {
+    position: relative;
+
+    .product-title {
+      font-size: 30px;
+      font-weight: 500;
+      color: $white;
+      position: absolute;
+      bottom: 70px;
+      left: 30px;
     }
+
+    .product-img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
   @media (max-width: $screen-md) {
     .section-title {
       margin: 0 0 40px;
