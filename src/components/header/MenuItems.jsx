@@ -5,7 +5,7 @@ const MenuItems = ({ items, submenu }) => {
     const [dropdown, setDropdown] = useState(false);
 
     return (
-        <li className="menu-items">
+        <li className="dropdown">
             {items.submenu ? (
                 <>
                     <button type="button" aria-haspopup="menu"
