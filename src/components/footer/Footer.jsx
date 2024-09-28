@@ -1,7 +1,7 @@
 import './Footer.scss';
 import footerData from './../../footer.json';
-import youTube from '../../assets/images/you-tube.png';
-import fb from '../../assets/images/fb.png';
+import youTube from '../../assets/images/you-tube.svg';
+import fb from '../../assets/images/fb.svg';
 
 const Footer = () => {
     return (

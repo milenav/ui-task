@@ -6,8 +6,8 @@ import 'swiper/css/navigation';
 
 import {Pagination, Navigation} from 'swiper/modules';
 import sliderData from "../../slider.json";
-import youTube from "../../assets/images/you-tube.png";
-import fb from "../../assets/images/fb.png";
+import youTube from "../../assets/images/you-tube.svg";
+import fb from "../../assets/images/fb.svg";
 
 const Hero = () => {
     return (

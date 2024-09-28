@@ -29,6 +29,9 @@
 
       .nav-list-right {
         margin-left: auto !important;
+        .nav-link {
+          text-transform: capitalize !important;
+        }
       }
 
       .nav-toggle,
