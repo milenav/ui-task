@@ -86,11 +86,12 @@
       height: 50px;
     }
   }
+}
 
-  @media (max-width: $screen-md) {
-    .news-section {
-      padding: 40px 0 40px;
-    }
+@media (max-width: $screen-md) {
+  .news-section {
+    padding: 40px 0 40px;
+
     .col-3 {
       flex: 1 1 auto;;
       max-width: 100%;

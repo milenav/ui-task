@@ -11,7 +11,7 @@ import fb from "../../assets/images/fb.svg";
 
 const Hero = () => {
     return (
-        <div className="container-fluid">
+        <div className="hero-section container-fluid">
             <h1 className="hero-title">
                 <span className="pre"><span className="first-word">Your</span> Best</span>Gaming Experience
             </h1>

@@ -1,4 +1,5 @@
 import './../../App.scss';
+import './News.scss';
 import NewsCard from "./NewsCard";
 import newsData from './../../news.json';
 

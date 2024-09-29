@@ -2,8 +2,6 @@ import './News.scss';
 
 const NewsCard = ({title, src, image, alt, text, date, description}) => {
     return <>
-
-
         <article className="news-card col-3 col-sm">
             <div className="icon-wrapper">
                 <img src={src} alt={alt}/>

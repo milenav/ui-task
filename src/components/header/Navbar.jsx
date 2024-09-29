@@ -6,14 +6,9 @@ import flag from '../../assets/images/flag.svg';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
-    const [activeSubmenu, setActiveSubmenu] = useState(null);
 
     const firstMenuItems = menuItems.slice(0, menuItems.length - 3);
     const lastMenuItems = menuItems.slice(-3);
-
-    const toggleSubmenu = (index) => {
-        setActiveSubmenu(activeSubmenu === index ? null : index);
-    };
 
     return (
         <nav className="nav-menu">
@@ -26,7 +21,7 @@ const Navbar = () => {
             <ul className={`nav-list ${isOpen ? 'active' : 'inactive'}`}>
                 {firstMenuItems.map((item, index) => (
                     <li className="nav-item" key={index}>
-                        <div className="nav-link" onClick={() => toggleSubmenu(index)}>{item.title}
+                        <div className="nav-link">{item.title}
                             <IoChevronDown className="down-icon" />
                         </div>
                         <ul className="submenu">
