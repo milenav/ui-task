@@ -12,9 +12,9 @@ const Navbar = () => {
 
     return (
         <nav className="nav-menu">
-            <div onClick={() => setIsOpen(!isOpen)} className="nav-toggle">
+            <div onClick={() => setIsOpen(!isOpen)} className={`nav-toggle ${isOpen ? 'open' : ''}`}>
                 {
-                    isOpen ? <IoClose/> : <IoMenu/>
+                    isOpen ? <IoClose className="close-icon"/> : <IoMenu className="menu-icon"/>
                 }
             </div>
 

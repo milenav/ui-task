@@ -28,6 +28,7 @@
       width: 100%;
 
       .nav-list-right {
+        display: flex !important;
         margin-left: auto !important;
 
         .nav-link {
@@ -35,15 +36,8 @@
         }
       }
 
-      .nav-toggle,
-      .nav-close {
+      .nav-toggle {
         display: none;
-      }
-
-      .nav-close {
-        position: absolute;
-        top: 1rem;
-        right: 1.5rem;
       }
 
       .nav-list {
@@ -128,33 +122,12 @@
     }
   }
 
-  @media (max-width: $screen-md) {
-    .nav-toggle,
-    .nav-close {
-      display: inline-block !important;
-      font-size: 40px;
-      color: $white;
-      cursor: pointer;
-      position: absolute;
-      right: 0;
-      transition: ease 0.4s;
-    }
-    .active, .nav-list-right {
-      display: block;
-    }
-
-    .inactive, .nav-list-right {
-      display: none !important;
-    }
-    .nav-list {
-      flex-direction: column;
-    }
-  }
-
   .language {
     display: flex;
     align-items: center;
     column-gap: 8px;
+    font-family: "Roboto Medium";
+    color: $dark-text;
 
     img {
       width: 35px;
@@ -162,6 +135,96 @@
 
     svg {
       stroke: $dark-grey;
+    }
+  }
+
+  @media (max-width: $screen-md) {
+    .nav-menu {
+      position: absolute;
+      top: 70px;
+      right: 0;
+      left: 20px;
+      flex-direction: column;
+      background: $grey-bg;
+
+      .nav-toggle {
+        display: inline-block !important;
+        position: absolute;
+        top: -70px;
+        font-size: 40px;
+        line-height: 28px;
+        color: $white;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        padding: 15px 20px;
+        transition: ease 0.4s;
+
+        &.open {
+          background: $grey-bg;
+        }
+
+        .close-icon {
+          color: $red;
+        }
+      }
+
+      .nav-list {
+        flex-direction: column;
+        width: 100%;
+
+        &.active {
+          display: flex;
+
+          + .nav-list-right {
+            display: flex !important;
+            margin: 0 !important;
+
+            .nav-item {
+              border: none;
+              height: auto;
+              line-height: normal;
+              padding: 10px 0;
+
+              &:first-child {
+                padding-top: 20px;
+              }
+            }
+          }
+        }
+
+        &.inactive {
+          display: none;
+
+          + .nav-list-right {
+            display: none !important;
+          }
+        }
+
+        .nav-item {
+          border-bottom: 1px solid $grey;
+          margin: 0 50px 0 30px;
+          height: 60px;
+          line-height: 60px;
+
+          &:hover {
+            .submenu {
+              display: none;
+            }
+          }
+
+          .nav-link {
+            color: $dark-text;
+            text-align: left;
+            padding: 0;
+          }
+        }
+      }
+
+      .language {
+        margin: 0 30px;
+        padding: 10px 0 30px;
+      }
     }
   }
 }
