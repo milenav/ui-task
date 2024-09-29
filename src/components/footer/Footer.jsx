@@ -24,8 +24,12 @@ const Footer = () => {
             </ul>
 
             <div className="social-media">
-                <img src={youTube} alt="YouTube"/>
-                <img src={fb} alt="Facebook"/>
+                <a href="https://www.youtube.com/" target={"_blank"}>
+                    <img src={youTube} alt="YouTube"/>
+                </a>
+                <a href="https://www.facebook.com/" target={"_blank"}>
+                    <img src={fb} alt="Facebook"/>
+                </a>
             </div>
 
             <div className="copyright">

@@ -27,9 +27,13 @@ const Hero = () => {
                 ))}
             </Swiper>
             <div className="social">
-                <img src={youTube} alt="YouTube"/>
+                <a href="https://www.youtube.com/" target={"_blank"}>
+                    <img src={youTube} alt="YouTube"/>
+                </a>
                 <span className="divider"></span>
-                <img src={fb} alt="Facebook"/>
+                <a href="https://www.facebook.com/" target={"_blank"}>
+                    <img src={fb} alt="Facebook"/>
+                </a>
             </div>
         </div>
     );
